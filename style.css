@@ -112,9 +112,10 @@ header label{
     display: flex;
     align-items: center;
     justify-content: center;
-    background:url(images/home.jpg) no-repeat;
+    /* background:url(images/home.jpg) no-repeat; */
     background-size:cover;
     background-position: center;
+    background-color: rgb(206, 202, 202);
     /* background-position-x: right;
     background-position-y: top;
     background-color: black */
@@ -149,9 +150,10 @@ header label{
     font-size: 1.7rem;
     color:rgb(1, 5, 31);
     padding:1rem 0;
-}
+} 
 .features{
-    background:url(images/about.jpg)
+   background:url(images/about.jpg)
+    /* background-color: rgb(182, 182, 182); */
 }
 .features .heading {
     color:rgb(7, 10, 167);
@@ -197,7 +199,7 @@ header label{
     background-color: wheat;
     background-size: cover;
     background-position: center;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 .about .column{
@@ -412,8 +414,7 @@ header label{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding-bottom: 4rem;
-    background-color: #4da8e6;
+    padding-bottom: 2rem;
 }
 
 .contact .image{
@@ -482,7 +483,7 @@ header label{
     background:url(../images/footer-bg.png) no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: #fdfdfd;
+    background-color:black
 }
 
 .footer .box-container{
@@ -498,7 +499,7 @@ header label{
 .footer .box-container .box h3{
     font-size: 2.5rem;
     padding:1rem 0;
-    color:rgb(7, 7, 7);
+    color:whitesmoke;
     text-decoration: underline;
     text-underline-offset: 1rem;
 }
@@ -506,14 +507,14 @@ header label{
 .footer .box-container .box p{
     font-size: 1.5rem;
     padding:.5rem 0;
-    color:rgb(7, 7, 7);
+    color:whitesmoke
 }
 
 .footer .box-container .box a{
     display: block;
     font-size: 1.5rem;
     padding:.5rem 0;
-    color:rgb(10, 10, 10);
+    color:whitesmoke;
 }
 
 .footer .box-container .box a:hover{
